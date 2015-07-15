@@ -1,0 +1,10 @@
+(fp_lib_table
+  (lib (name Capacitors)(type KiCad)(uri /home/imcinerney/Documents/Github/PMOD-Compatible_Quadrature-Encoder/2-Hardware/libraries/modules/Capacitors.pretty)(options "")(descr ""))
+  (lib (name Connectors)(type KiCad)(uri /home/imcinerney/Documents/Github/PMOD-Compatible_Quadrature-Encoder/2-Hardware/libraries/modules/Connectors.pretty)(options "")(descr ""))
+  (lib (name Diodes)(type KiCad)(uri /home/imcinerney/Documents/Github/PMOD-Compatible_Quadrature-Encoder/2-Hardware/libraries/modules/Diodes.pretty)(options "")(descr ""))
+  (lib (name Inductors)(type KiCad)(uri /home/imcinerney/Documents/Github/PMOD-Compatible_Quadrature-Encoder/2-Hardware/libraries/modules/Inductors.pretty)(options "")(descr ""))
+  (lib (name LEDs)(type KiCad)(uri /home/imcinerney/Documents/Github/PMOD-Compatible_Quadrature-Encoder/2-Hardware/libraries/modules/LEDs.pretty)(options "")(descr ""))
+  (lib (name Resistors)(type KiCad)(uri /home/imcinerney/Documents/Github/PMOD-Compatible_Quadrature-Encoder/2-Hardware/libraries/modules/Resistors.pretty)(options "")(descr ""))
+  (lib (name SMD)(type KiCad)(uri /home/imcinerney/Documents/Github/PMOD-Compatible_Quadrature-Encoder/2-Hardware/libraries/modules/SMD.pretty)(options "")(descr ""))
+  (lib (name Transistors)(type KiCad)(uri /home/imcinerney/Documents/Github/PMOD-Compatible_Quadrature-Encoder/2-Hardware/libraries/modules/Transistors.pretty)(options "")(descr ""))
+)
