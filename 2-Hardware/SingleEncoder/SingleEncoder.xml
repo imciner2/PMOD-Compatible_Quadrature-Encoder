@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/imcinerney/Documents/Github/PMOD-Compatible_Quadrature-Encoder/2-Hardware/SingleEncoder/SingleEncoder.sch</source>
+    <date>Fri 17 Jul 2015 01:51:30 PM CDT</date>
+    <tool>Eeschema no-vcs-found-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Quadrature Encoder PMOD-Compatible Interface</title>
+        <company/>
+        <rev>A</rev>
+        <date/>
+        <source>SingleEncoder.sch</source>
+        <comment number="1" value="Drawn by: Ian McInerney"/>
+        <comment number="2" value="https://github.com/imciner2/PMOD-Compatible_Quadrature-Encoder"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>TPS60131</value>
+      <footprint>SMD:SSOP_20_4.5mm_6.6mm_0.65mm_PWP</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps60130.pdf</datasheet>
+      <fields>
+        <field name="DigikeyNumber">296-2272-5-ND</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="ManufacturerNumber">TPS60131PWP</field>
+      </fields>
+      <libsource lib="PowerComponents" part="TPS60131"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A5538D</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>PMOD_SINGLE</value>
+      <footprint>Connectors:PMOD_SINGLE_MALE</footprint>
+      <fields>
+        <field name="DigikeyNumber">609-3313-ND</field>
+        <field name="Manufacturer">FCI</field>
+        <field name="ManufacturerNumber">68016-106HLF</field>
+      </fields>
+      <libsource lib="PMOD" part="PMOD_SINGLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A55B68</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>SMD:SMD_0805</footprint>
+      <fields>
+        <field name="DigikeyNumber">P10.0KCCT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="ManufacturerNumber">ERJ-6ENF1002V</field>
+      </fields>
+      <libsource lib="Passives" part="RES"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A55CC4</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>2.2uF</value>
+      <footprint>SMD:SMD_0805</footprint>
+      <fields>
+        <field name="DigikeyNumber">445-1588-1-ND</field>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="ManufacturerNumber">C2012X5R1A225K085AA</field>
+      </fields>
+      <libsource lib="Passives" part="CAP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A55E3A</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>2.2uF</value>
+      <footprint>SMD:SMD_0805</footprint>
+      <fields>
+        <field name="DigikeyNumber">445-1588-1-ND</field>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="ManufacturerNumber">C2012X5R1A225K085AA</field>
+      </fields>
+      <libsource lib="Passives" part="CAP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A55E5F</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>33uF</value>
+      <footprint>SMD:SMD_0805</footprint>
+      <fields>
+        <field name="DigikeyNumber">445-8238-1-ND</field>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="ManufacturerNumber">C2012X5R1A336M125AC</field>
+      </fields>
+      <libsource lib="Passives" part="CAP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A563BE</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>15uF</value>
+      <footprint>SMD:SMD_0805</footprint>
+      <fields>
+        <field name="DigikeyNumber">445-14362-1-ND</field>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="ManufacturerNumber">C2012X5R1A156M085AC</field>
+      </fields>
+      <libsource lib="Passives" part="CAP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A56826</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X06</value>
+      <footprint>Connectors:DIN_CUI_SDS-50J</footprint>
+      <fields>
+        <field name="DigikeyNumber">CP-2350-ND</field>
+        <field name="Manufacturer">CUI Inc</field>
+        <field name="ManufacturerNumber">SDS-50J</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A57C1B</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MCP6L02</value>
+      <footprint>SMD:SSOP_08_3.0mm_3.0mm_0.65mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/22140b.pdf</datasheet>
+      <fields>
+        <field name="DigikeyNumber">MCP6L02T-E/MSCT-ND</field>
+        <field name="Manufacturer">Microchip</field>
+        <field name="ManufacturerNumber">MCP6L02T-E/MS</field>
+      </fields>
+      <libsource lib="Amplifiers" part="MCP6L02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A57FEF</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>SMD:SMD_0805</footprint>
+      <fields>
+        <field name="DigikeyNumber">311-1141-1-ND</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="ManufacturerNumber">CC0805KRX7R8BB104</field>
+      </fields>
+      <libsource lib="Passives" part="CAP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A58249</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>ILD213T</value>
+      <footprint>SMD:SOIC_08_4.0mm_5.8mm_1.27mm</footprint>
+      <datasheet>http://www.vishay.com/docs/83647/ild205t.pdf</datasheet>
+      <fields>
+        <field name="DigikeyNumber">751-1312-1-ND</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="ManufacturerNumber">ILD213T</field>
+      </fields>
+      <libsource lib="MiscellaneousDevices" part="ILD213T"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A592A9</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>220</value>
+      <footprint>SMD:SMD_0805</footprint>
+      <fields>
+        <field name="DigikeyNumber">P220CCT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="ManufacturerNumber">ERJ-6ENF2200V</field>
+      </fields>
+      <libsource lib="Passives" part="RES"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A596C1</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>220</value>
+      <footprint>SMD:SMD_0805</footprint>
+      <fields>
+        <field name="DigikeyNumber">P220CCT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="ManufacturerNumber">ERJ-6ENF2200V</field>
+      </fields>
+      <libsource lib="Passives" part="RES"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A598BE</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>SMD:SMD_0805</footprint>
+      <fields>
+        <field name="DigikeyNumber">P10.0KCCT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="ManufacturerNumber">ERJ-6ENF1002V</field>
+      </fields>
+      <libsource lib="Passives" part="RES"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A59C4A</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>SMD:SMD_0805</footprint>
+      <fields>
+        <field name="DigikeyNumber">P10.0KCCT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="ManufacturerNumber">ERJ-6ENF1002V</field>
+      </fields>
+      <libsource lib="Passives" part="RES"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A59CD8</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>SMD:SMD_0805</footprint>
+      <fields>
+        <field name="DigikeyNumber">P10.0KCCT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="ManufacturerNumber">ERJ-6ENF1002V</field>
+      </fields>
+      <libsource lib="Passives" part="RES"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A5A3F9</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>SMD:SMD_0805</footprint>
+      <fields>
+        <field name="DigikeyNumber">P10.0KCCT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="ManufacturerNumber">ERJ-6ENF1002V</field>
+      </fields>
+      <libsource lib="Passives" part="RES"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A5A470</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>MMBT2222</value>
+      <footprint>Transistors:TRANS_SOT-23-3_BEC</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/MM/MMBT2222.pdf</datasheet>
+      <fields>
+        <field name="DigikeyNumber">MMBT2222AFSCT-ND</field>
+        <field name="Manufacturer">Fairchild Semiconductor</field>
+        <field name="ManufacturerNumber">MMBT2222</field>
+      </fields>
+      <libsource lib="TransistorParts" part="NPN_3-Term"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A5BD0E</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>MMBT2222</value>
+      <footprint>Transistors:TRANS_SOT-23-3_BEC</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/MM/MMBT2222.pdf</datasheet>
+      <fields>
+        <field name="DigikeyNumber">MMBT2222AFSCT-ND</field>
+        <field name="Manufacturer">Fairchild Semiconductor</field>
+        <field name="ManufacturerNumber">MMBT2222</field>
+      </fields>
+      <libsource lib="TransistorParts" part="NPN_3-Term"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A5BFAE</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>330</value>
+      <footprint>SMD:SMD_0805</footprint>
+      <fields>
+        <field name="DigikeyNumber">P330CCT-ND</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="ManufacturerNumber">ERJ-6ENF3300V</field>
+      </fields>
+      <libsource lib="Passives" part="RES"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A5D293</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>RED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <fields>
+        <field name="DigikeyNumber">754-1137-1-ND</field>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="ManufacturerNumber">APT3216EC</field>
+      </fields>
+      <libsource lib="Diodes" part="D_LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A5D2E8</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TEST_POINT</value>
+      <footprint>Connectors:TESTPOINT_063</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1322</datasheet>
+      <fields>
+        <field name="DigikeyNumber">36-5013-ND</field>
+        <field name="Manufacturer">Keystone Electronics</field>
+        <field name="ManufacturerNumber">5013</field>
+      </fields>
+      <libsource lib="MiscellaneousDevices" part="TEST_POINT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A5DE90</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TEST_POINT</value>
+      <footprint>Connectors:TESTPOINT_063</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1322</datasheet>
+      <fields>
+        <field name="DigikeyNumber">36-5013-ND</field>
+        <field name="Manufacturer">Keystone Electronics</field>
+        <field name="ManufacturerNumber">5013</field>
+      </fields>
+      <libsource lib="MiscellaneousDevices" part="TEST_POINT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A5E19E</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TEST_POINT</value>
+      <footprint>Connectors:TESTPOINT_063</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1320</datasheet>
+      <fields>
+        <field name="DigikeyNumber">36-5011-ND</field>
+        <field name="Manufacturer">Keystone Electronics</field>
+        <field name="ManufacturerNumber">5011</field>
+      </fields>
+      <libsource lib="MiscellaneousDevices" part="TEST_POINT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A5E2E9</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>15uF</value>
+      <footprint>SMD:SMD_0805</footprint>
+      <fields>
+        <field name="DigikeyNumber">445-14362-1-ND</field>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="ManufacturerNumber">C2012X5R1A156M085AC</field>
+      </fields>
+      <libsource lib="Passives" part="CAP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A82F72</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>33uF</value>
+      <footprint>SMD:SMD_0805</footprint>
+      <fields>
+        <field name="DigikeyNumber">445-8238-1-ND</field>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="ManufacturerNumber">C2012X5R1A336M125AC</field>
+      </fields>
+      <libsource lib="Passives" part="CAP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A83372</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Diodes" part="D_LED">
+      <description>Light Emitting Diode</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_LED</field>
+      </fields>
+      <pins>
+        <pin num="A" name="~" type="input"/>
+        <pin num="C" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Passives" part="CAP">
+      <description>Unpolarized Capacitor</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiscellaneousDevices" part="ILD213T">
+      <description>Dual Channel Optocoupler by Vishay</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ILD213T</field>
+        <field name="Datasheet">http://www.vishay.com/docs/83647/ild205t.pdf</field>
+        <field name="DigikeyNumber">751-1312-1-ND</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="ManufacturerNumber">ILD213T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN_A" type="input"/>
+        <pin num="2" name="IN_C" type="input"/>
+        <pin num="3" name="IN_A" type="input"/>
+        <pin num="4" name="IN_C" type="input"/>
+        <pin num="5" name="OUT_E" type="input"/>
+        <pin num="6" name="OUT_C" type="input"/>
+        <pin num="7" name="OUT_E" type="input"/>
+        <pin num="8" name="OUT_C" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiscellaneousDevices" part="TEST_POINT">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TEST_POINT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Passives" part="RES">
+      <description>Resistor</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RES</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="PowerComponents" part="TPS60130">
+      <aliases>
+        <alias>TPS60131</alias>
+        <alias>TPS60132</alias>
+        <alias>TPS60133</alias>
+      </aliases>
+      <description>Texas Instruments 3.3V -&gt; 5V output Charge Pump, 300mA</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS60130</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="FB" type="input"/>
+        <pin num="5" name="OUT" type="input"/>
+        <pin num="6" name="C1+" type="input"/>
+        <pin num="7" name="IN" type="input"/>
+        <pin num="8" name="C1-" type="input"/>
+        <pin num="9" name="PGND" type="input"/>
+        <pin num="10" name="PGND" type="input"/>
+        <pin num="11" name="PGND" type="input"/>
+        <pin num="12" name="PGND" type="input"/>
+        <pin num="13" name="C2-" type="input"/>
+        <pin num="14" name="IN" type="input"/>
+        <pin num="15" name="C2+" type="input"/>
+        <pin num="16" name="OUT" type="input"/>
+        <pin num="17" name="LBO/PG" type="input"/>
+        <pin num="18" name="LBI/NC" type="input"/>
+        <pin num="19" name="GND" type="input"/>
+        <pin num="20" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="TransistorParts" part="NPN_3-Term">
+      <description>Generic NPN Transistor</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">NPN_3-Term</field>
+      </fields>
+      <pins>
+        <pin num="B" name="B" type="input"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="E" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X06">
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Pin_Header_Angled_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+        <fp>Socket_Strip_Angled_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PMOD" part="PMOD_SINGLE">
+      <description>PMOD-Compatible connector</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PMOD_SINGLE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IO_1" type="input"/>
+        <pin num="2" name="IO_2" type="input"/>
+        <pin num="3" name="IO_3" type="input"/>
+        <pin num="4" name="IO_4" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifiers" part="MCP6L02">
+      <description>MCP6L02 Dual Operational Amplifier by Microchip</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP6L02</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/22140b.pdf</field>
+        <field name="DigikeyNumber">MCP6L02T-E/MSCT-ND</field>
+        <field name="Manufacturer">Microchip</field>
+        <field name="ManufacturerNumber">MCP6L02T-E/MS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vout" type="input"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="Vss" type="input"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="Vout" type="input"/>
+        <pin num="8" name="Vdd" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Diodes">
+      <uri>/home/imcinerney/Documents/Github/PMOD-Compatible_Quadrature-Encoder/2-Hardware/libraries/Diodes.lib</uri>
+    </library>
+    <library logical="MiscellaneousDevices">
+      <uri>/home/imcinerney/Documents/Github/PMOD-Compatible_Quadrature-Encoder/2-Hardware/libraries/MiscellaneousDevices.lib</uri>
+    </library>
+    <library logical="PowerComponents">
+      <uri>/home/imcinerney/Documents/Github/PMOD-Compatible_Quadrature-Encoder/2-Hardware/libraries/PowerComponents.lib</uri>
+    </library>
+    <library logical="Passives">
+      <uri>/home/imcinerney/Documents/Github/PMOD-Compatible_Quadrature-Encoder/2-Hardware/libraries/Passives.lib</uri>
+    </library>
+    <library logical="TransistorParts">
+      <uri>/home/imcinerney/Documents/Github/PMOD-Compatible_Quadrature-Encoder/2-Hardware/libraries/TransistorParts.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="PMOD">
+      <uri>/home/imcinerney/Documents/Github/PMOD-Compatible_Quadrature-Encoder/2-Hardware/libraries/PMOD.lib</uri>
+    </library>
+    <library logical="Amplifiers">
+      <uri>/home/imcinerney/Documents/Github/PMOD-Compatible_Quadrature-Encoder/2-Hardware/libraries/Amplifiers.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="2" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C5" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="TP3" pin="1"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U1" pin="19"/>
+      <node ref="J1" pin="5"/>
+      <node ref="U1" pin="2"/>
+      <node ref="P1" pin="1"/>
+      <node ref="U1" pin="20"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U1" pin="11"/>
+      <node ref="U1" pin="12"/>
+      <node ref="U1" pin="10"/>
+      <node ref="U2" pin="4"/>
+      <node ref="D1" pin="C"/>
+      <node ref="Q1" pin="E"/>
+      <node ref="Q2" pin="E"/>
+      <node ref="P1" pin="6"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U3" pin="4"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="4" name="Net-(Q2-PadB)">
+      <node ref="Q2" pin="B"/>
+      <node ref="U3" pin="8"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="5" name="Net-(Q1-PadB)">
+      <node ref="U3" pin="6"/>
+      <node ref="R5" pin="2"/>
+      <node ref="Q1" pin="B"/>
+    </net>
+    <net code="6" name="Net-(R4-Pad2)">
+      <node ref="U2" pin="7"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="7" name="Net-(R3-Pad2)">
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="8" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="9" name="/ENC_A">
+      <node ref="P1" pin="3"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="10" name="/ENC_B">
+      <node ref="U2" pin="5"/>
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="11" name="Net-(D1-PadA)">
+      <node ref="R2" pin="2"/>
+      <node ref="D1" pin="A"/>
+    </net>
+    <net code="12" name="VCC">
+      <node ref="U1" pin="14"/>
+      <node ref="J1" pin="6"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="13" name="/LOGIC_A">
+      <node ref="J1" pin="1"/>
+      <node ref="Q1" pin="C"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="14" name="/LOGIC_B">
+      <node ref="TP2" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="Q2" pin="C"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="15" name="Net-(C3-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="16" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="17" name="/PWR_EN">
+      <node ref="J1" pin="3"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="18" name="Net-(C4-Pad1)">
+      <node ref="U1" pin="15"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="19" name="Net-(C4-Pad2)">
+      <node ref="U1" pin="13"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="21" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="22" name="+5V">
+      <node ref="C7" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U2" pin="8"/>
+      <node ref="P1" pin="4"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U1" pin="16"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="23" name="Net-(P1-Pad2)">
+      <node ref="P1" pin="2"/>
+    </net>
+  </nets>
+</export>
