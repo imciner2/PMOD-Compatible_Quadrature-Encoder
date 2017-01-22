@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/imcinerney/Documents/Github/PMOD-Compatible_Quadrature-Encoder/2-Hardware/SingleEncoder/SingleEncoder.sch</source>
-    <date>Fri 17 Jul 2015 01:51:30 PM CDT</date>
+    <date>Fri 17 Jul 2015 02:51:32 PM CDT</date>
     <tool>Eeschema no-vcs-found-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -511,14 +511,14 @@
     <library logical="Diodes">
       <uri>/home/imcinerney/Documents/Github/PMOD-Compatible_Quadrature-Encoder/2-Hardware/libraries/Diodes.lib</uri>
     </library>
-    <library logical="MiscellaneousDevices">
-      <uri>/home/imcinerney/Documents/Github/PMOD-Compatible_Quadrature-Encoder/2-Hardware/libraries/MiscellaneousDevices.lib</uri>
-    </library>
     <library logical="PowerComponents">
       <uri>/home/imcinerney/Documents/Github/PMOD-Compatible_Quadrature-Encoder/2-Hardware/libraries/PowerComponents.lib</uri>
     </library>
     <library logical="Passives">
       <uri>/home/imcinerney/Documents/Github/PMOD-Compatible_Quadrature-Encoder/2-Hardware/libraries/Passives.lib</uri>
+    </library>
+    <library logical="MiscellaneousDevices">
+      <uri>/home/imcinerney/Documents/Github/PMOD-Compatible_Quadrature-Encoder/2-Hardware/libraries/MiscellaneousDevices.lib</uri>
     </library>
     <library logical="TransistorParts">
       <uri>/home/imcinerney/Documents/Github/PMOD-Compatible_Quadrature-Encoder/2-Hardware/libraries/TransistorParts.lib</uri>
