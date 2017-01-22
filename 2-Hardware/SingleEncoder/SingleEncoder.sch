@@ -1,94 +1,20 @@
 EESchema Schematic File Version 2
+LIBS:Amplifiers
+LIBS:Connectors
 LIBS:DataStorage
 LIBS:Diodes
 LIBS:Microprocessors
 LIBS:MiscellaneousDevices
 LIBS:Passives
+LIBS:PMOD
 LIBS:PowerComponents
+LIBS:RepeaterParts
 LIBS:RF_OEM_Parts
 LIBS:Sensors
 LIBS:TransistorParts
-LIBS:conn
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:brooktre
-LIBS:cmos4000
-LIBS:cmos_ieee
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic
-LIBS:hc11
-LIBS:intel
-LIBS:interface
-LIBS:ir
-LIBS:Lattice
-LIBS:linear
-LIBS:logo
-LIBS:maxim
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:Xicor
-LIBS:xilinx
-LIBS:Zilog
-LIBS:PMOD
-LIBS:Amplifiers
+LIBS:LogicDevices
 LIBS:SingleEncoder-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -559,7 +485,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 2450 8300 1850
 Wire Wire Line
-	8200 1850 8450 1850
+	8200 1850 8550 1850
 Wire Wire Line
 	7250 3800 7150 3800
 Wire Wire Line
@@ -569,7 +495,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 4050 8300 3550
 Wire Wire Line
-	8200 3550 8450 3550
+	8200 3550 8550 3550
 Text Label 7100 1600 2    60   ~ 0
 ENC_A
 Text Label 7100 3300 2    60   ~ 0
@@ -584,193 +510,55 @@ Text Notes 7450 750  0    100  ~ 0
 Buffers, Isolation, and Level Translation
 NoConn ~ 3650 1350
 $Comp
-L ILD213T U3
-U 2 1 55A592A9
-P 9300 1950
-F 0 "U3" H 9500 2200 60  0000 C CNN
-F 1 "ILD213T" H 9300 1700 60  0000 C CNN
-F 2 "SMD:SOIC_08_4.0mm_5.8mm_1.27mm" H 9300 1950 60  0001 C CNN
-F 3 "http://www.vishay.com/docs/83647/ild205t.pdf" H 9400 2300 60  0001 C CNN
-F 4 "751-1312-1-ND" H 9750 2400 60  0001 C CNN "DigikeyNumber"
-F 5 "Vishay" H 9750 2550 60  0001 C CNN "Manufacturer"
-F 6 "ILD213T" H 9800 2650 60  0001 C CNN "ManufacturerNumber"
-	2    9300 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L ILD213T U3
-U 1 1 55A59311
-P 9300 3650
-F 0 "U3" H 9500 3900 60  0000 C CNN
-F 1 "ILD213T" H 9300 3400 60  0000 C CNN
-F 2 "SMD:SOIC_08_4.0mm_5.8mm_1.27mm" H 9300 3650 60  0001 C CNN
-F 3 "http://www.vishay.com/docs/83647/ild205t.pdf" H 9400 4000 60  0001 C CNN
-F 4 "751-1312-1-ND" H 9750 4100 60  0001 C CNN "DigikeyNumber"
-F 5 "Vishay" H 9750 4250 60  0001 C CNN "Manufacturer"
-F 6 "ILD213T" H 9800 4350 60  0001 C CNN "ManufacturerNumber"
-	1    9300 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR015
-U 1 1 55A593CB
-P 8800 3800
-F 0 "#PWR015" H 8800 3550 50  0001 C CNN
-F 1 "GND" H 8800 3650 50  0000 C CNN
-F 2 "" H 8800 3800 60  0000 C CNN
-F 3 "" H 8800 3800 60  0000 C CNN
-	1    8800 3800
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR016
 U 1 1 55A593FB
-P 8800 2100
-F 0 "#PWR016" H 8800 1850 50  0001 C CNN
-F 1 "GND" H 8800 1950 50  0000 C CNN
-F 2 "" H 8800 2100 60  0000 C CNN
-F 3 "" H 8800 2100 60  0000 C CNN
-	1    8800 2100
+P 8800 2800
+F 0 "#PWR016" H 8800 2550 50  0001 C CNN
+F 1 "GND" H 8800 2650 50  0000 C CNN
+F 2 "" H 8800 2800 60  0000 C CNN
+F 3 "" H 8800 2800 60  0000 C CNN
+	1    8800 2800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8800 3800 8800 3750
-Wire Wire Line
-	8800 3750 8900 3750
-Wire Wire Line
-	8900 2050 8800 2050
-Wire Wire Line
-	8800 2050 8800 2100
 $Comp
 L RES R3
 U 1 1 55A596C1
-P 8650 1850
-F 0 "R3" V 8750 1850 60  0000 C CNN
-F 1 "220" V 8650 1850 60  0000 C CNN
-F 2 "SMD:SMD_0805" V 8390 1750 60  0001 C CNN
-F 3 "" V 8490 1850 60  0001 C CNN
-F 4 "P220CCT-ND" H 8650 1850 60  0001 C CNN "DigikeyNumber"
-F 5 "Panasonic Electronic Components" H 8650 1850 60  0001 C CNN "Manufacturer"
-F 6 "ERJ-6ENF2200V" H 8650 1850 60  0001 C CNN "ManufacturerNumber"
-	1    8650 1850
-	0    1    1    0   
+P 8550 2150
+F 0 "R3" V 8650 2150 60  0000 C CNN
+F 1 "220" V 8550 2150 60  0000 C CNN
+F 2 "SMD:SMD_0805" V 8290 2050 60  0001 C CNN
+F 3 "" V 8390 2150 60  0001 C CNN
+F 4 "P220CCT-ND" H 8550 2150 60  0001 C CNN "DigikeyNumber"
+F 5 "Panasonic Electronic Components" H 8550 2150 60  0001 C CNN "Manufacturer"
+F 6 "ERJ-6ENF2200V" H 8550 2150 60  0001 C CNN "ManufacturerNumber"
+	1    8550 2150
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	8900 1850 8850 1850
 $Comp
 L RES R4
 U 1 1 55A598BE
-P 8650 3550
-F 0 "R4" V 8750 3550 60  0000 C CNN
-F 1 "220" V 8650 3550 60  0000 C CNN
-F 2 "SMD:SMD_0805" V 8390 3450 60  0001 C CNN
-F 3 "" V 8490 3550 60  0001 C CNN
-F 4 "P220CCT-ND" H 8650 3550 60  0001 C CNN "DigikeyNumber"
-F 5 "Panasonic Electronic Components" H 8650 3550 60  0001 C CNN "Manufacturer"
-F 6 "ERJ-6ENF2200V" H 8650 3550 60  0001 C CNN "ManufacturerNumber"
-	1    8650 3550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8850 3550 8900 3550
-Wire Wire Line
-	9700 3550 10100 3550
-Wire Wire Line
-	9700 1850 10100 1850
-$Comp
-L RES R6
-U 1 1 55A59C4A
-P 9900 3300
-F 0 "R6" V 10000 3300 60  0000 C CNN
-F 1 "10k" V 9900 3300 60  0000 C CNN
-F 2 "SMD:SMD_0805" V 9640 3200 60  0001 C CNN
-F 3 "" V 9740 3300 60  0001 C CNN
-F 4 "P10.0KCCT-ND" H 9900 3300 60  0001 C CNN "DigikeyNumber"
-F 5 "Panasonic Electronic Components" H 9900 3300 60  0001 C CNN "Manufacturer"
-F 6 "ERJ-6ENF1002V" H 9900 3300 60  0001 C CNN "ManufacturerNumber"
-	1    9900 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L RES R5
-U 1 1 55A59CD8
-P 9900 1600
-F 0 "R5" V 10000 1600 60  0000 C CNN
-F 1 "10k" V 9900 1600 60  0000 C CNN
-F 2 "SMD:SMD_0805" V 9640 1500 60  0001 C CNN
-F 3 "" V 9740 1600 60  0001 C CNN
-F 4 "P10.0KCCT-ND" H 9900 1600 60  0001 C CNN "DigikeyNumber"
-F 5 "Panasonic Electronic Components" H 9900 1600 60  0001 C CNN "Manufacturer"
-F 6 "ERJ-6ENF1002V" H 9900 1600 60  0001 C CNN "ManufacturerNumber"
-	1    9900 1600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9900 1400 9900 1350
-Wire Wire Line
-	9900 1800 9900 1850
-Connection ~ 9900 1850
-Wire Wire Line
-	9900 3050 9900 3100
-Wire Wire Line
-	9900 3500 9900 3550
-Connection ~ 9900 3550
-Wire Wire Line
-	9700 3750 9750 3750
-Wire Wire Line
-	9750 3750 9750 3800
-$Comp
-L GND #PWR017
-U 1 1 55A5A187
-P 9750 3800
-F 0 "#PWR017" H 9750 3550 50  0001 C CNN
-F 1 "GND" H 9750 3650 50  0000 C CNN
-F 2 "" H 9750 3800 60  0000 C CNN
-F 3 "" H 9750 3800 60  0000 C CNN
-	1    9750 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR018
-U 1 1 55A5A1C3
-P 10400 3850
-F 0 "#PWR018" H 10400 3600 50  0001 C CNN
-F 1 "GND" H 10400 3700 50  0000 C CNN
-F 2 "" H 10400 3850 60  0000 C CNN
-F 3 "" H 10400 3850 60  0000 C CNN
-	1    10400 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR019
-U 1 1 55A5A1FF
-P 10400 2150
-F 0 "#PWR019" H 10400 1900 50  0001 C CNN
-F 1 "GND" H 10400 2000 50  0000 C CNN
-F 2 "" H 10400 2150 60  0000 C CNN
-F 3 "" H 10400 2150 60  0000 C CNN
-	1    10400 2150
-	1    0    0    -1  
+P 8550 3000
+F 0 "R4" V 8650 3000 60  0000 C CNN
+F 1 "220" V 8550 3000 60  0000 C CNN
+F 2 "SMD:SMD_0805" V 8290 2900 60  0001 C CNN
+F 3 "" V 8390 3000 60  0001 C CNN
+F 4 "P220CCT-ND" H 8550 3000 60  0001 C CNN "DigikeyNumber"
+F 5 "Panasonic Electronic Components" H 8550 3000 60  0001 C CNN "Manufacturer"
+F 6 "ERJ-6ENF2200V" H 8550 3000 60  0001 C CNN "ManufacturerNumber"
+	1    8550 3000
+	-1   0    0    1   
 $EndComp
 $Comp
 L GND #PWR020
 U 1 1 55A5A23B
-P 9750 2100
-F 0 "#PWR020" H 9750 1850 50  0001 C CNN
-F 1 "GND" H 9750 1950 50  0000 C CNN
-F 2 "" H 9750 2100 60  0000 C CNN
-F 3 "" H 9750 2100 60  0000 C CNN
-	1    9750 2100
+P 9300 1850
+F 0 "#PWR020" H 9300 1600 50  0001 C CNN
+F 1 "GND" H 9300 1700 50  0000 C CNN
+F 2 "" H 9300 1850 60  0000 C CNN
+F 3 "" H 9300 1850 60  0000 C CNN
+	1    9300 1850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9700 2050 9750 2050
-Wire Wire Line
-	9750 2050 9750 2100
-Wire Wire Line
-	10400 2050 10400 2150
-Wire Wire Line
-	10400 3750 10400 3850
 $Comp
 L RES R8
 U 1 1 55A5A3F9
@@ -800,23 +588,15 @@ F 6 "ERJ-6ENF1002V" H 10400 1350 60  0001 C CNN "ManufacturerNumber"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10400 1550 10400 1650
-Wire Wire Line
 	10400 1100 10400 1150
 Wire Wire Line
 	10400 2800 10400 2850
 Wire Wire Line
-	10400 3250 10400 3350
-Wire Wire Line
-	10400 3300 10800 3300
-Connection ~ 10400 3300
+	10000 3300 10800 3300
 Text Label 10800 3300 0    60   ~ 0
 LOGIC_B
 Text Label 10800 1600 0    60   ~ 0
 LOGIC_A
-Wire Wire Line
-	10400 1600 10800 1600
-Connection ~ 10400 1600
 $Comp
 L VCC #PWR021
 U 1 1 55A5B2A5
@@ -829,17 +609,6 @@ F 3 "" H 10400 1100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR022
-U 1 1 55A5B2E5
-P 9900 1350
-F 0 "#PWR022" H 9900 1200 50  0001 C CNN
-F 1 "VCC" H 9900 1500 50  0000 C CNN
-F 2 "" H 9900 1350 60  0000 C CNN
-F 3 "" H 9900 1350 60  0000 C CNN
-	1    9900 1350
-	1    0    0    -1  
-$EndComp
-$Comp
 L VCC #PWR023
 U 1 1 55A5B391
 P 10400 2800
@@ -848,45 +617,6 @@ F 1 "VCC" H 10400 2950 50  0000 C CNN
 F 2 "" H 10400 2800 60  0000 C CNN
 F 3 "" H 10400 2800 60  0000 C CNN
 	1    10400 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR024
-U 1 1 55A5B3CD
-P 9900 3050
-F 0 "#PWR024" H 9900 2900 50  0001 C CNN
-F 1 "VCC" H 9900 3200 50  0000 C CNN
-F 2 "" H 9900 3050 60  0000 C CNN
-F 3 "" H 9900 3050 60  0000 C CNN
-	1    9900 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L NPN_3-Term Q2
-U 1 1 55A5BD0E
-P 10300 3550
-F 0 "Q2" H 10310 3720 60  0000 R CNN
-F 1 "MMBT2222" H 10310 3400 60  0000 R CNN
-F 2 "Transistors:TRANS_SOT-23-3_BEC" H 10210 3620 60  0001 C CNN
-F 3 "https://www.fairchildsemi.com/datasheets/MM/MMBT2222.pdf" H 10310 3720 60  0001 C CNN
-F 4 "MMBT2222AFSCT-ND" H 10300 3550 60  0001 C CNN "DigikeyNumber"
-F 5 "Fairchild Semiconductor" H 10300 3550 60  0001 C CNN "Manufacturer"
-F 6 "MMBT2222" H 10300 3550 60  0001 C CNN "ManufacturerNumber"
-	1    10300 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L NPN_3-Term Q1
-U 1 1 55A5BFAE
-P 10300 1850
-F 0 "Q1" H 10310 2020 60  0000 R CNN
-F 1 "MMBT2222" H 10310 1700 60  0000 R CNN
-F 2 "Transistors:TRANS_SOT-23-3_BEC" H 10210 1920 60  0001 C CNN
-F 3 "https://www.fairchildsemi.com/datasheets/MM/MMBT2222.pdf" H 10310 2020 60  0001 C CNN
-F 4 "MMBT2222AFSCT-ND" H 10300 1850 60  0001 C CNN "DigikeyNumber"
-F 5 "Fairchild Semiconductor" H 10300 1850 60  0001 C CNN "Manufacturer"
-F 6 "MMBT2222" H 10300 1850 60  0001 C CNN "ManufacturerNumber"
-	1    10300 1850
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -953,9 +683,6 @@ F 6 "5013" H 10700 1450 60  0001 C CNN "ManufacturerNumber"
 	1    10700 1450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10700 1550 10700 1600
-Connection ~ 10700 1600
 $Comp
 L TEST_POINT TP2
 U 1 1 55A5E19E
@@ -1109,4 +836,132 @@ Wire Notes Line
 	2900 5100 2900 3200
 Wire Notes Line
 	2900 5100 500  5100
+$Comp
+L PCA9306 AT?
+U 1 1 5872E8F6
+P 9300 2450
+F 0 "AT?" H 9050 2800 60  0000 C CNN
+F 1 "PCA9306" H 9300 2100 60  0000 C CNN
+F 2 "" H 9050 2250 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/pca9306.pdf" H 9450 2900 60  0001 C CNN
+F 4 "296-18509-1-ND" H 9300 3000 60  0001 C CNN "DigikeyNumber"
+F 5 "Texas Instruments" H 9300 3100 60  0001 C CNN "Manufacturer"
+F 6 "PCA9306" H 9300 3200 60  0001 C CNN "ManufacturerNumber"
+	1    9300 2450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 2700 8800 2700
+Wire Wire Line
+	8800 2700 8800 2800
+Wire Wire Line
+	10000 2550 10000 3300
+Wire Wire Line
+	10000 2550 9750 2550
+Wire Wire Line
+	10400 3250 10400 3300
+Connection ~ 10400 3300
+Wire Wire Line
+	9750 2450 10000 2450
+Wire Wire Line
+	10000 1600 10800 1600
+Wire Wire Line
+	10400 1600 10400 1550
+Connection ~ 10400 1600
+Wire Wire Line
+	10700 1550 10700 1600
+Connection ~ 10700 1600
+$Comp
+L RES R?
+U 1 1 5872FB8C
+P 8800 1450
+F 0 "R?" H 8878 1503 60  0000 L CNN
+F 1 "200k" V 8800 1350 50  0000 L CNN
+F 2 "" V 8540 1350 60  0001 C CNN
+F 3 "" V 8640 1450 60  0001 C CNN
+	1    8800 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP C?
+U 1 1 587301B5
+P 9050 1800
+F 0 "C?" V 8756 1800 60  0000 C CNN
+F 1 "CAP" V 8862 1800 60  0000 C CNN
+F 2 "" V 8790 1700 60  0001 C CNN
+F 3 "" V 8890 1800 60  0001 C CNN
+	1    9050 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L CAP C?
+U 1 1 58730243
+P 9550 1800
+F 0 "C?" V 9256 1800 60  0000 C CNN
+F 1 "CAP" V 9362 1800 60  0000 C CNN
+F 2 "" V 9290 1700 60  0001 C CNN
+F 3 "" V 9390 1800 60  0001 C CNN
+	1    9550 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9350 1800 9250 1800
+Wire Wire Line
+	9300 1850 9300 1800
+Connection ~ 9300 1800
+Wire Wire Line
+	9750 1800 9800 1800
+Wire Wire Line
+	9800 1500 9800 2200
+Wire Wire Line
+	9800 2200 9750 2200
+Wire Wire Line
+	8850 1800 8800 1800
+Wire Wire Line
+	8800 1650 8800 2350
+Wire Wire Line
+	8800 2200 8850 2200
+Wire Wire Line
+	8800 2350 8850 2350
+Connection ~ 8800 2200
+Wire Wire Line
+	10000 2450 10000 1600
+Wire Wire Line
+	8550 1850 8550 1950
+Wire Wire Line
+	8550 2350 8550 2450
+Wire Wire Line
+	8550 2450 8850 2450
+Wire Wire Line
+	8550 3550 8550 3200
+Wire Wire Line
+	8550 2800 8550 2550
+Wire Wire Line
+	8550 2550 8850 2550
+Connection ~ 8800 1800
+$Comp
+L +5V #PWR?
+U 1 1 5873167E
+P 8800 1150
+F 0 "#PWR?" H 8800 1000 50  0001 C CNN
+F 1 "+5V" H 8800 1290 50  0000 C CNN
+F 2 "" H 8800 1150 60  0000 C CNN
+F 3 "" H 8800 1150 60  0000 C CNN
+	1    8800 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 1150 8800 1250
+$Comp
+L VCC #PWR?
+U 1 1 58731788
+P 9800 1500
+F 0 "#PWR?" H 9800 1350 50  0001 C CNN
+F 1 "VCC" H 9800 1650 50  0000 C CNN
+F 2 "" H 9800 1500 60  0000 C CNN
+F 3 "" H 9800 1500 60  0000 C CNN
+	1    9800 1500
+	1    0    0    -1  
+$EndComp
+Connection ~ 9800 1800
 $EndSCHEMATC
