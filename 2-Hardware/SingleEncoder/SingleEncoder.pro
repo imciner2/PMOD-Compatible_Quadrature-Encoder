@@ -1,4 +1,4 @@
-update=Sun 08 Jan 2017 07:15:28 PM CST
+update=Mon 09 Oct 2017 10:10:21 PM BST
 version=1
 last_client=kicad
 [pcbnew]
@@ -43,3 +43,13 @@ LibName11=symbols/RF_OEM_Parts
 LibName12=symbols/Sensors
 LibName13=symbols/TransistorParts
 LibName14=symbols/LogicDevices
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
